@@ -1,0 +1,9 @@
+import turtle
+turtle.Screen().bgcolor("Blue")
+sc=turtle.screen()
+sc.setup(400,300)
+turtle.title("Welcome")
+board=turtle.Turtle()
+for i in range(4):
+    board.forward(100)
+    board.left(90)
